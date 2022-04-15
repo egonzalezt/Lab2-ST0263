@@ -9,6 +9,7 @@
             <li><a href="#install-docker">Install Docker</a></li>
             <li><a href="#nginx">Nginx</a></li>
         </ol>
+    <li><a href="#flow">Flow</a></li>
     <li><a href="#testing">Testing</a></li>
   </ol>
 </details>
@@ -166,6 +167,10 @@ ubuntu@ip-x-x-x-x:~$ sudo service nginx restart
  * Restarting nginx                                                           [ OK ]
 ashley@pluto:~$
 ```
+
+## Flow
+
+![Untitled Diagram drawio](https://user-images.githubusercontent.com/53051438/163523068-5f1e418d-22fb-4065-9a99-81a5b1207e8c.png)
 
 ## Testing
 
