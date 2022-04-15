@@ -1,5 +1,18 @@
 # Lab2-ST0263
 
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#setup">Setup</a></li>
+        <ol>
+            <li><a href="#ec2">EC2</a></li>
+            <li><a href="#install-docker">Install Docker</a></li>
+            <li><a href="#nginx">Nginx</a></li>
+        </ol>
+    <li><a href="#testing">Testing</a></li>
+  </ol>
+</details>
+
 ## Setup
 
 ### EC2
@@ -66,7 +79,7 @@ sudo apt install certbot python3-certbot-nginx
 
 The last command is fundamental to get the SSL certificate on your machine.
 
-## Setup NGINX
+#### Setup NGINX
 
 When you install CERTBOT let's generate the cerfiticate but first you need to adquire a domain on this case we are going to use Freenom 
 
@@ -140,7 +153,7 @@ sudo nginx -t
 sudo service nginx restart
 ```
 
-### Demo
+##### Demo
 ```bash
 ubuntu@ip-x-x-x-x:~$ sudo nginx -t
 nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
