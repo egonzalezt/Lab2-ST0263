@@ -13,6 +13,10 @@
   </ol>
 </details>
 
+## Project Objetive
+
+The objetive of this project is to explore docker and nginx to deploy an CMS in this case Wordpress and encript the CMS using SSL Certificated provided by Let's Encript. 
+
 ## Setup
 
 ### EC2
@@ -81,7 +85,7 @@ The last command is fundamental to get the SSL certificate on your machine.
 
 #### Setup NGINX
 
-When you install CERTBOT let's generate the cerfiticate but first you need to adquire a domain on this case we are going to use Freenom 
+When you install CERTBOT let's generate the cerfiticate but first you need to adquire a domain on this case we are going to use [Freenom](https://www.freenom.com/) 
 
 My domain is daves.tk so let's generate the certificate
 
