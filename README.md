@@ -18,6 +18,10 @@
 
 The objetive of this project is to explore docker and nginx to deploy an CMS in this case Wordpress and encript the CMS using SSL Certificated provided by Let's Encript. 
 
+### Demo
+
+[Youtube video](https://youtu.be/yLmZcBz6DvM)
+
 ## Setup
 
 ### EC2
