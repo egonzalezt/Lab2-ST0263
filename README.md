@@ -63,7 +63,7 @@ Please follow the steps always on linux.
 When everthing is done please run this command where is located your docker-compose.yml 
 
 ```bash
-sudo docker-compose -d
+sudo docker-compose up -d
 ```
 if you wanna see the logs run on the same location
 
